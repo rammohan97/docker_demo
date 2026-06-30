@@ -5,5 +5,6 @@ ENV COURSE="Docker" \
       VERSION="1.0"
 LABEL name="Ram" \
       age="23"
+ADD https://raw.githubusercontent.com/daws-86s/notes/refs/heads/main/session-02.txt /tmp/session-02.txt
 CMD ["nginx", "-g", "daemon off;"]
 EXPOSE 80/tcp

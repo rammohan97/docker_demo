@@ -7,4 +7,5 @@ LABEL name="Ram" \
       age="23"
 ADD https://raw.githubusercontent.com/daws-86s/notes/refs/heads/main/session-02.txt /tmp/session-02.txt
 CMD ["nginx", "-g", "daemon off;"]
+CMD ["ping", "google.com"]
 EXPOSE 80/tcp
